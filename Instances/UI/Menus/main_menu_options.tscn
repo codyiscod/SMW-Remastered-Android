@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://djn6v47x0bta5"]
 
-[ext_resource type="Script" path="res://Scripts/UI/main_menu_options.gd" id="1_3jer0"]
+[ext_resource type="Script" uid="uid://b3nmp0uq5nhch" path="res://Scripts/UI/main_menu_options.gd" id="1_3jer0"]
 [ext_resource type="FontFile" uid="uid://bhqyq3yxbvqkd" path="res://Assets/Sprites/UI/HUD/HUDFont.png" id="1_a1swk"]
 [ext_resource type="Texture2D" uid="uid://vmnatqkj2lio" path="res://Assets/Sprites/UI/Arrow.png" id="2_vnwht"]
 
@@ -41,8 +41,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kh12m"]
 _data = {
-"RESET": SubResource("Animation_7rd5l"),
-"Show": SubResource("Animation_cdgv5")
+&"RESET": SubResource("Animation_7rd5l"),
+&"Show": SubResource("Animation_cdgv5")
 }
 
 [node name="MainMenuOptions" type="Node"]
@@ -120,5 +120,5 @@ uppercase = true
 
 [node name="Animations" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_kh12m")
+&"": SubResource("AnimationLibrary_kh12m")
 }

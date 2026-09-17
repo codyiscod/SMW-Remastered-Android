@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://qkplsyrv5u1o"]
 
-[ext_resource type="Script" path="res://Scripts/UI/option_section_node.gd" id="1_htrde"]
+[ext_resource type="Script" uid="uid://rq77lf8gn6rq" path="res://Scripts/UI/option_section_node.gd" id="1_htrde"]
 [ext_resource type="FontVariation" uid="uid://danbjhdwr003q" path="res://UI/NewFont.tres" id="2_t5abj"]
 [ext_resource type="Texture2D" uid="uid://7m3ti8gletaw" path="res://Assets/Sprites/UI/Underline.png" id="3_02fvp"]
 [ext_resource type="PackedScene" uid="uid://den5kogms88pd" path="res://Instances/UI/selectable_option_node.tscn" id="3_p5fjr"]
@@ -57,5 +57,4 @@ theme_override_constants/separation = 32
 
 [node name="SelectableOptionNode" parent="Container" instance=ExtResource("3_p5fjr")]
 layout_mode = 2
-option_title = "AHAHAHHAHA"
 highlighted = false

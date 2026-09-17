@@ -92,7 +92,8 @@ var red_coins_collected := 0
 var current_map_area: MapArea = null
 var time_played := 0.0
 var running := false
-var has_touchscreen := true
+#var has_touchscreen := true
+var has_touchscreen := false
 
 
 
