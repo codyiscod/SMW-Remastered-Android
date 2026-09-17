@@ -34,7 +34,7 @@ func _process(delta: float) -> void:
 		run_check()
 
 func verify_rom() -> bool:
-	#return valid_hashes.has(FileAccess.get_sha256(OS.get_system_dir(OS.SYSTEM_DIR_DOCUMENTS) + "SuperMarioWorldRemastered/baserom.sfc"))
+	#return valid_hashes.has(FileAccess.get_sha256(OS.get_system_dir(OS.SYSTEM_DIR_DOCUMENTS) + "/SuperMarioWorldRemastered/baserom.sfc"))
 	return FileAccess.file_exists(OS.get_system_dir(OS.SYSTEM_DIR_DOCUMENTS) + "/SuperMarioWorldRemastered/baserom.sfc")
 
 func proceed() -> void:
