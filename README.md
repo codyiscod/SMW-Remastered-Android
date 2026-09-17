@@ -1,8 +1,17 @@
 <p align="center"><img src="app_icons/icon_432.png" width="100" height="100" alt="SMW Remastered Icon"></p>
 <h1 align="center">SMW Remastered</h1>
-<p align="center"><b>(A fork of a fork of an archived project)</b></p>
+<p align="center">(A continuation of <b>Super Mario World Remastered</b>)</p>
 
-Latest Download: https://github.com/codyiscod/Super-Mario-World-Remastered-Public-Android/releases/latest
+> [!IMPORTANT]
+> This game does __NOT__ act as a substitute for the original Super Mario World. Super Mario World can be played now on Nintendo Switch Online.
+> _Please dont sue me Nintendo... Please_
+
+**Latest Download:** https://github.com/codyiscod/Super-Mario-World-Remastered-Public-Android/releases/latest
+
+Original repo: [JHDev2006/Super-Mario-World-Remastered-Public](https://github.com/JHDev2006/Super-Mario-World-Remastered-Public)  
+Original Android port: [grekzorna/Super-Mario-World-Remastered-Public-Android](https://github.com/grekzorna/Super-Mario-World-Remastered-Public-Android)
+
+---
 
 ## Changes:
 - Temporarily hid the mobile controls
