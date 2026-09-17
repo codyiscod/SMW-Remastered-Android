@@ -3,6 +3,10 @@
 --Created by
 JoeMama
 
+--Android port by
+grekzorna
+cod.y (Bug fixes)
+
 
 --Sprites
 

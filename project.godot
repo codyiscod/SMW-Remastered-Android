@@ -20,12 +20,15 @@ warnings/check_angle_interpolation_type_conflicting=false
 
 [application]
 
-config/name="SuperMarioWorldRemastered"
+config/name="SMW_Remastered"
+config/description="A fork of an Android port of a remaster of Super Mario World made in Godot originally by KyzanDev"
+config/version="1.2.0"
 config/tags=PackedStringArray("die")
 run/main_scene="uid://dvbp0nouhoin8"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="SuperMarioWorldRemastered"
 config/features=PackedStringArray("4.4")
+boot_splash/bg_color=Color(0, 0, 0, 1)
 boot_splash/show_image=false
 boot_splash/fullsize=false
 boot_splash/use_filter=false
