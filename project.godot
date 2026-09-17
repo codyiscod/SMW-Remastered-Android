@@ -30,7 +30,7 @@ boot_splash/show_image=false
 boot_splash/fullsize=false
 boot_splash/use_filter=false
 boot_splash/image="res://Assets/Sprites/UI/Splash.png"
-config/icon="res://icon.png"
+config/icon="uid://cbtdkgk4ppjfq"
 
 [autoload]
 
